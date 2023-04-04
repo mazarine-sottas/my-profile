@@ -1,0 +1,86 @@
+body{
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fillustrations%2Fpurple-spotlight-background&psig=AOvVaw083naX9xYYUhn5wPAyvW77&ust=1680699369824000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJjezZmjkP4CFQAAAAAdAAAAABAG);   
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(115, 16, 143);
+    font-family: sans-serif;
+}
+
+.card {
+    background: white;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+.nneka{
+    width: 500px;
+}
+
+img{
+    border-radius: 0%;
+    width: 25%;
+    height: 25%;
+}
+
+.email{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(96, 13, 109);
+    width: 48px;
+    height: 48px;
+    margin: 0 25px;
+    padding: 15px;
+    border-radius: 15%;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(96, 13, 109);
+    margin: 0 25px;
+    padding: 15px;
+    border-radius: 15%;
+   
+}
+
+h2{
+    color: rgb(133, 21, 146);
+    font-family: sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+li {
+    margin: 32px 0;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 52px;
+}
+
+ul {
+    padding: 0;   
+}
+
+p{
+    margin-bottom: 48px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+@media (max-width: 992px) {
+    .nneka {
+        width:350px;
+    }
+    .card {
+        padding: 30px;
+    }
+}
